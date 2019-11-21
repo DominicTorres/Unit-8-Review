@@ -18,7 +18,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1" />
    <title>DLR Morning Schedule</title>
    <link href="dlr_reset2.css" rel="stylesheet" />
-   <link href="dlr_styles2.css" rel="stylesheet" />         
+   <link href="dlr_styles2.css" rel="stylesheet" />  
+   <link href="dlr_tables2.css" rel="stylesheet" />  
+   <link href="dlr_columns2.css" rel="stylesheet" />        
 </head>
 
 <body>
@@ -49,6 +51,52 @@
             of our broadcast or download programs from our <a href="#">Podcast</a>. 
             <br />Please refer below for our current morning schedule.</p>
 
+            <table class="program">
+               <caption>All Times Central</caption>
+               <colgroup>
+                  <col class="timeColumn">
+
+                  <col class="wDayColumns" span="5">
+
+                  <col class="wEndColumns" span="2">
+               </colgroup>
+               <thead>
+                  <tr>
+                     <th>Time</th>
+                     <th>Mon</th>
+                     <th>Tue</th>
+                     <th>Wed</th>
+                     <th>Thu</th>
+                     <th>Fri</th>
+                     <th>Sat</th>
+                     <th>Sun</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <th>5:00 AM</th>
+                     <td rowspan="1" colspan="4">Dawn Air</td>
+                     <td rowspan="2">Dawn Air Weekends</td>
+                  </tr>
+                  <tr>
+                     <th>5:30 AM</th>
+                  </tr>
+                  <tr>
+                     <th>6:00 AM</th>
+                  </tr>
+                  <tr>
+                     <th>6:30 AM</th>
+                  </tr>
+                  <tr>
+                     <th>7:00 AM</th>
+                  </tr>
+               </tbody>
+               <tfoot>
+                  <tr>
+                     <td colspan="8">Support your Public Radio Station</td>
+                  </tr>
+               </tfoot>
+            </table>
       </section>
       
    </div>
