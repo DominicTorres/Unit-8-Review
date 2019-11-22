@@ -39,15 +39,48 @@ table.program caption{
 }
 
 /* Table Column Styles */
-
+/*step14*/
+col.timeColumn{
+   column-width: 10%;
+   background-color: rgb(215, 205, 151);
+}
+/*step15*/
+col.wDayColumns{
+   column-width: 11%;
+   background-color: rgb(236, 255, 211);
+}
+/*step16*/
+col.wEndColumns{
+   column-width: 17%;
+   background-color: rgb(255, 231, 255);
+}
 
 
 /* Table Header Styles */
-/*step
+/*step17*/
+thead{
+   color: white;
+   background-color: rgb(105, 177, 60);
+}
+/*step18*/
+thead th:first-of-type{
+   background-color: rgb(153, 86, 7);
+}
 
 
 /* Table Footer Styles */
-
+/*step19*/
+thead th:nth-of-type(7){
+   background-color: rgb(153, 0, 153);
+}
+thead th:nth-of-type(8){
+   background-color: rgb(153, 0, 153);
+}
+/*step20*/
+tfoot{
+   color: white;
+   background-color: black;
+}
 
 
 
